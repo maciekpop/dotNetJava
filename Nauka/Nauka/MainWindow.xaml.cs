@@ -36,6 +36,9 @@ namespace Nauka
             InitializeComponent();
         }
 
-        
+        private void SaveButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("New employee added successfully! :)");
+        }
     }
 }
