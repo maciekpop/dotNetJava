@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\App.xaml
-11151548125
+2-1452161638
 
-14590168756
+15-934028009
 210-1823037669
-MainWindow.xaml;
+LoginScreen.xaml;MainWindow.xaml;
 
-False
+True
 
