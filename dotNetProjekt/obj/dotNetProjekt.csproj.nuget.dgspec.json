@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Robson\\source\\repos\\dotNetProjekt\\dotNetProjekt\\dotNetProjekt.csproj": {}
+    "C:\\Users\\Robson\\Desktop\\dotNetJava\\dotNetProjekt\\dotNetProjekt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Robson\\source\\repos\\dotNetProjekt\\dotNetProjekt\\dotNetProjekt.csproj": {
+    "C:\\Users\\Robson\\Desktop\\dotNetJava\\dotNetProjekt\\dotNetProjekt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Robson\\source\\repos\\dotNetProjekt\\dotNetProjekt\\dotNetProjekt.csproj",
+        "projectUniqueName": "C:\\Users\\Robson\\Desktop\\dotNetJava\\dotNetProjekt\\dotNetProjekt.csproj",
         "projectName": "dotNetProjekt",
-        "projectPath": "C:\\Users\\Robson\\source\\repos\\dotNetProjekt\\dotNetProjekt\\dotNetProjekt.csproj",
+        "projectPath": "C:\\Users\\Robson\\Desktop\\dotNetJava\\dotNetProjekt\\dotNetProjekt.csproj",
         "packagesPath": "C:\\Users\\Robson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Robson\\source\\repos\\dotNetProjekt\\dotNetProjekt\\obj\\",
+        "outputPath": "C:\\Users\\Robson\\Desktop\\dotNetJava\\dotNetProjekt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Robson\\AppData\\Roaming\\NuGet\\NuGet.Config",

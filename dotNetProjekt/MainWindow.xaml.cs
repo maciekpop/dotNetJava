@@ -19,32 +19,19 @@ namespace dotNetProjekt
 {
     public partial class MainWindow : Window
     {
-        public class EmploeeContext : DbContext
-        {
-            public DbSet<Pracownicy> pracownicies { get; set; }
-            protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            {
-                optionsBuilder.UseOracle(@"User Id=FIRMA;Password=rk7;Data Source=(DESCRIPTION = " +
-   " (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521))" +
-    "(CONNECT_DATA =" +
-     " (SERVER = DEDICATED)" +
-      "(SERVICE_NAME = XEPDB1)" +
-    "));");
-            }
-        }
+        
         public MainWindow()
         {
             InitializeComponent();
-            
         }
 
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
             using (var db = new EmploeeContext())
             {
-
-                var pracownik = new Pracownicy { PracownicyId = Int32.Parse(empIDText.Text), Imie = fNameText.Text, Nazwisko = lNameText.Text, Adres = addressText.Text, Email = emailText.Text, NumerTelefonu = Int32.Parse(phoneText.Text), Stanowisko = positionText.Text };
-                db.pracownicies.Add(pracownik);
+                var actualMaxIdnumber = db.employees.DefaultIfEmpty().Max(x => x.EmployeeId);
+                var emp = new Employee { EmployeeId = actualMaxIdnumber+1, FirstName = fNameText.Text, LastName = lNameText.Text, Address = addressText.Text, Email = emailText.Text, PhoneNumber = Int32.Parse(phoneText.Text), Position = positionText.Text };
+                db.employees.Add(emp);
 
                 db.SaveChanges();
             }

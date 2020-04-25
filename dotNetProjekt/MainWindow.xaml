@@ -47,8 +47,8 @@
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
         <TextBlock  Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="5" FontSize="36" Text="WorkerHourTracker" HorizontalAlignment="Center" VerticalAlignment="Center" />
-        <TextBlock Grid.Column="1" Grid.Row="3" FontSize="20" Text="ID: " />
-        <TextBox Grid.Column="2" Grid.Row="3" Width="150" Name="empIDText"/>
+        <!--<TextBlock Grid.Column="1" Grid.Row="3" FontSize="20" Text="ID: " />
+        <TextBox Grid.Column="2" Grid.Row="3" Width="150" Name="empIDText"/>-->
         <TextBlock Grid.Column="1" Grid.Row="5" FontSize="20" Text="First Name: " />
         <TextBox Grid.Column="2" Grid.Row="5" Width="150" Name="fNameText"/>
         <TextBlock Grid.Column="1" Grid.Row="7" FontSize="20" Text="Last Name: " />
