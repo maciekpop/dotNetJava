@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fESFE/oot1ZxwJwo3j+aG4YSMCu1PiCv4SeKZar0uh41Wq/ji0eUYNqCi8HTqur6p4nu/9LlNi2TLKnPGltTlA==",
+  "dgSpecHash": "04iCrnxjetHVH/51lVNSE0o8sqDyXySOV6UDr7z7kiZ4OinZsA5jsFuYqzK4wPzhWSvE5Pxun6/XgZtBTrExPg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Robson\\Desktop\\dotNetJava\\dotNetProjekt\\dotNetProjekt.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Robson\\.nuget\\packages\\extended.wpf.toolkit\\3.7.0\\extended.wpf.toolkit.3.7.0.nupkg.sha512",
     "C:\\Users\\Robson\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Robson\\.nuget\\packages\\microsoft.entityframeworkcore\\2.2.6\\microsoft.entityframeworkcore.2.2.6.nupkg.sha512",
     "C:\\Users\\Robson\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\2.2.6\\microsoft.entityframeworkcore.abstractions.2.2.6.nupkg.sha512",
@@ -55,5 +56,16 @@
     "C:\\Users\\Robson\\.nuget\\packages\\system.threading\\4.0.11\\system.threading.4.0.11.nupkg.sha512",
     "C:\\Users\\Robson\\.nuget\\packages\\system.threading.tasks\\4.0.11\\system.threading.tasks.4.0.11.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Pakiet „Extended.Wpf.Toolkit 3.7.0” został przywrócony przy użyciu elementu „.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8” zamiast platformy docelowej projektu „.NETCoreApp,Version=v3.1”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
+      "libraryId": "Extended.Wpf.Toolkit",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

@@ -17,5 +17,6 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\Robson\.nuget\packages\microsoft.entityframeworkcore.tools\2.2.6</PkgMicrosoft_EntityFrameworkCore_Tools>
+    <PkgExtended_Wpf_Toolkit Condition=" '$(PkgExtended_Wpf_Toolkit)' == '' ">C:\Users\Robson\.nuget\packages\extended.wpf.toolkit\3.7.0</PkgExtended_Wpf_Toolkit>
   </PropertyGroup>
 </Project>

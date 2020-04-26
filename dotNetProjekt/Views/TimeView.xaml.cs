@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -21,6 +22,21 @@ namespace dotNetProjekt.Views
         public TimeView()
         {
             InitializeComponent();
+        }
+
+        private void RegisterBtn_Click(object sender, RoutedEventArgs e)
+        {
+            using (var db = new EmploeeContext())
+            {
+                var actualMaxRegisterIdnumber = db.workTimes.DefaultIfEmpty().Max(x => x.WorkTimeId);
+                int num = LoginScreen.acutalEmployeeId;
+                DateTime begin = DateTime.Parse(DateTimePickerBegin.Text);
+                DateTime end = DateTime.Parse(DateTimePickerEnd.Text);
+                var workT = new WorkTime { WorkTimeId = actualMaxRegisterIdnumber + 1,  BeginningTime=begin, EndTime =end, EmployeeId= num};
+                db.workTimes.Add(workT);
+                db.SaveChanges();
+            }
+            MessageBox.Show("Time registered successfully! :)");
         }
     }
 }

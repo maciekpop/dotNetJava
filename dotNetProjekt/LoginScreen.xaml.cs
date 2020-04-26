@@ -18,6 +18,7 @@ namespace dotNetProjekt
     /// </summary>
     public partial class LoginScreen : Window
     {
+        public static int acutalEmployeeId { get; set; }
         public LoginScreen()
         {
             InitializeComponent();
@@ -35,6 +36,7 @@ namespace dotNetProjekt
                 }
                 else
                 {
+                    acutalEmployeeId = tempUser.EmployeeId;
                     MessageBox.Show("Zalogowano pomyślnie");
                     MainWindow window = new MainWindow();
                     window.Show();
