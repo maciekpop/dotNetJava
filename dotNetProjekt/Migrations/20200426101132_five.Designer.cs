@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Oracle.EntityFrameworkCore.Metadata;
 using dotNetProjekt;
@@ -9,9 +10,10 @@ using dotNetProjekt;
 namespace dotNetProjekt.Migrations
 {
     [DbContext(typeof(EmploeeContext))]
-    partial class EmploeeContextModelSnapshot : ModelSnapshot
+    [Migration("20200426101132_five")]
+    partial class five
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -48,23 +50,13 @@ namespace dotNetProjekt.Migrations
 
                     b.Property<DateTime>("BeginningTime");
 
-                    b.Property<int>("EmployeeId");
+                    b.Property<int>("EmpId");
 
                     b.Property<DateTime>("EndTime");
 
                     b.HasKey("WorkTimeId");
 
-                    b.HasIndex("EmployeeId");
-
                     b.ToTable("workTimes");
-                });
-
-            modelBuilder.Entity("dotNetProjekt.WorkTime", b =>
-                {
-                    b.HasOne("dotNetProjekt.Employee", "Employee")
-                        .WithMany()
-                        .HasForeignKey("EmployeeId")
-                        .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
         }
