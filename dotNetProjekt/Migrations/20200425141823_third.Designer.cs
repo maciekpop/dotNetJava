@@ -9,8 +9,8 @@ using dotNetProjekt;
 namespace dotNetProjekt.Migrations
 {
     [DbContext(typeof(EmploeeContext))]
-    [Migration("20200421092346_first")]
-    partial class first
+    [Migration("20200425141823_third")]
+    partial class third
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -20,26 +20,26 @@ namespace dotNetProjekt.Migrations
                 .HasAnnotation("ProductVersion", "2.2.6-servicing-10079")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
-            modelBuilder.Entity("dotNetProjekt.Pracownicy", b =>
+            modelBuilder.Entity("dotNetProjekt.Employee", b =>
                 {
-                    b.Property<int>("PracownicyId")
+                    b.Property<int>("EmployeeId")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Adres");
+                    b.Property<string>("Address");
 
                     b.Property<string>("Email");
 
-                    b.Property<string>("Imie");
+                    b.Property<string>("FirstName");
 
-                    b.Property<string>("Nazwisko");
+                    b.Property<string>("LastName");
 
-                    b.Property<int>("NumerTelefonu");
+                    b.Property<int>("PhoneNumber");
 
-                    b.Property<string>("Stanowisko");
+                    b.Property<string>("Position");
 
-                    b.HasKey("PracownicyId");
+                    b.HasKey("EmployeeId");
 
-                    b.ToTable("pracownicies");
+                    b.ToTable("employees");
                 });
 #pragma warning restore 612, 618
         }

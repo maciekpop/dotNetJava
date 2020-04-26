@@ -4,12 +4,23 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:dotNetProjekt"
+        xmlns:viewmodels ="clr-namespace:dotNetProjekt.ViewModels"
+        xmlns:views ="clr-namespace:dotNetProjekt.Views"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <DataTemplate x:Name="timeViewTemplate" DataType="{x:Type viewmodels:TimeViewModel}">
+            <views:TimeView DataContext="{Binding}"/>
+        </DataTemplate>
+        <DataTemplate x:Name="addingEmpTemplate" DataType="{x:Type viewmodels:AddingEmployeeModel}">
+            <views:AddingEmployeeView DataContext="{Binding}"/>
+        </DataTemplate>
+    </Window.Resources>
+
     <Grid>
 
         <Grid.Background>
-            <ImageBrush ImageSource="C:\Users\Robson\Desktop\bg.jpg" Stretch="UniformToFill"/>
+            <ImageBrush ImageSource="C:\Users\Robson\Desktop\powitanie.png" Stretch="UniformToFill"/>
         </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="20"/>
@@ -18,7 +29,7 @@
             <ColumnDefinition Width="auto"/>
             <ColumnDefinition Width="auto"/>
             <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="auto"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="20"/>
@@ -39,30 +50,21 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="20"/>
             <RowDefinition Height="auto"/>
-            <RowDefinition Height="4"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="4"/>
-            <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
-        <TextBlock  Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="5" FontSize="36" Text="WorkerHourTracker" HorizontalAlignment="Center" VerticalAlignment="Center" />
-        <TextBlock Grid.Column="1" Grid.Row="3" FontSize="20" Text="ID: " />
-        <TextBox Grid.Column="2" Grid.Row="3" Width="150" Name="empIDText"/>
-        <TextBlock Grid.Column="1" Grid.Row="5" FontSize="20" Text="First Name: " />
-        <TextBox Grid.Column="2" Grid.Row="5" Width="150" Name="fNameText"/>
-        <TextBlock Grid.Column="1" Grid.Row="7" FontSize="20" Text="Last Name: " />
-        <TextBox Grid.Column="2" Grid.Row="7" Width="150" Name="lNameText"/>
-        <TextBlock Grid.Column="1" Grid.Row="9" FontSize="20" Text="Address: " />
-        <TextBox Grid.Column="2" Grid.Row="9" Width="150" Name="addressText"/>
-        <TextBlock Grid.Column="1" Grid.Row="11" FontSize="20" Text="Phone: " />
-        <TextBox Grid.Column="2" Grid.Row="11" Width="150" Name="phoneText"/>
-        <TextBlock Grid.Column="1" Grid.Row="13" FontSize="20" Text="Email: " />
-        <TextBox Grid.Column="2" Grid.Row="13" Width="150" Name="emailText"/>
-        <TextBlock Grid.Column="1" Grid.Row="15" FontSize="20" Text="Position: " />
-        <TextBox Grid.Column="2" Grid.Row="15" Width="150" Name="positionText"/>
-        <Button Name="SaveButton" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="17" Content ="Add employee" Click="SaveButton_Click"/>
-        <Image Source="C:\Users\Robson\Desktop\emp2.png" Grid.Column="3" Grid.ColumnSpan="3" Grid.Row="3" Grid.RowSpan="17"/>
+        
+        
 
+        <DockPanel  Grid.Row="20" Grid.Column="0" Grid.ColumnSpan="7">
+            <StackPanel Orientation="Horizontal">
+                <Button Name="addingButton" Content="Adding Employee" Background="Black" Foreground="White" FontSize="12" Margin="1" Click="addingButton_Click" />
+                <Button Name="registerButton" Content="Register Time" Background="Black" Foreground="White" FontSize="12" Margin="1" Click="registerButton_Click"/>
+            </StackPanel>
+
+        </DockPanel>
+
+        <ContentControl Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="7" Grid.RowSpan="20" Content="{Binding}"  />
     </Grid>
 </Window>

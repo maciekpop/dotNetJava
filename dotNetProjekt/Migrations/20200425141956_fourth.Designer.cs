@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Oracle.EntityFrameworkCore.Metadata;
 using dotNetProjekt;
@@ -9,9 +10,10 @@ using dotNetProjekt;
 namespace dotNetProjekt.Migrations
 {
     [DbContext(typeof(EmploeeContext))]
-    partial class EmploeeContextModelSnapshot : ModelSnapshot
+    [Migration("20200425141956_fourth")]
+    partial class fourth
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
