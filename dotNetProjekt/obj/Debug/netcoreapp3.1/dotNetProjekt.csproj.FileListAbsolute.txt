@@ -62,7 +62,6 @@ C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\bin\Debug\netcoreapp3.1\Oracle.
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\bin\Debug\netcoreapp3.1\Oracle.ManagedDataAccess.dll
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\bin\Debug\netcoreapp3.1\Remotion.Linq.dll
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\bin\Debug\netcoreapp3.1\System.Interactive.Async.dll
-C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\dotNetProjekt.csprojAssemblyReference.cache
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\App.g.cs
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\dotNetProjekt_MarkupCompile.cache
@@ -78,3 +77,9 @@ C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\dotNetP
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\dotNetProjekt.genruntimeconfig.cache
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\LoginScreen.g.cs
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\LoginScreen.baml
+C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\Views\TimeView.g.cs
+C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\Views\TimeView.baml
+C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\dotNetProjekt.csprojAssemblyReference.cache
+C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\Views\AddingEmployeeView.g.cs
+C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\Views\AddingEmployeeView.baml

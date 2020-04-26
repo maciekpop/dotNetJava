@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using dotNetProjekt.ViewModels;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -25,17 +26,16 @@ namespace dotNetProjekt
             InitializeComponent();
         }
 
-        private void SaveButton_Click(object sender, RoutedEventArgs e)
-        {
-            using (var db = new EmploeeContext())
-            {
-                var actualMaxIdnumber = db.employees.DefaultIfEmpty().Max(x => x.EmployeeId);
-                var emp = new Employee { EmployeeId = actualMaxIdnumber+1, FirstName = fNameText.Text, LastName = lNameText.Text, Address = addressText.Text, Email = emailText.Text, PhoneNumber = Int32.Parse(phoneText.Text), Position = positionText.Text };
-                db.employees.Add(emp);
+        
 
-                db.SaveChanges();
-            }
-            MessageBox.Show("New employee added successfully! :)");
+        private void registerButton_Click(object sender, RoutedEventArgs e)
+        {
+            DataContext = new TimeViewModel();
+        }
+
+        private void addingButton_Click(object sender, RoutedEventArgs e)
+        {
+            DataContext = new AddingEmployeeModel();
         }
     }
 }

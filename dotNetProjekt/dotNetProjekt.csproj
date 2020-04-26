@@ -14,4 +14,8 @@
     <PackageReference Include="Oracle.EntityFrameworkCore" Version="2.19.60" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
 </Project>
