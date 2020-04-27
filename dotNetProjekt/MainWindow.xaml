@@ -15,6 +15,9 @@
         <DataTemplate x:Name="addingEmpTemplate" DataType="{x:Type viewmodels:AddingEmployeeModel}">
             <views:AddingEmployeeView DataContext="{Binding}"/>
         </DataTemplate>
+        <DataTemplate x:Name="dataViewTemplate" DataType="{x:Type viewmodels:InfoViewModel}">
+            <views:InfoView DataContext="{Binding}"/>
+        </DataTemplate>
     </Window.Resources>
 
     <Grid>
@@ -61,6 +64,7 @@
             <StackPanel Orientation="Horizontal">
                 <Button Name="addingButton" Content="Adding Employee" Background="Black" Foreground="White" FontSize="12" Margin="1" Click="addingButton_Click" />
                 <Button Name="registerButton" Content="Register Time" Background="Black" Foreground="White" FontSize="12" Margin="1" Click="registerButton_Click"/>
+                <Button Name="dataButton" Content="Show data" Background="Black" Foreground="White" FontSize="12" Margin="1" Click="dataButton_Click"/>
             </StackPanel>
 
         </DockPanel>

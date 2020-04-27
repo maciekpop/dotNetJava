@@ -19,5 +19,10 @@ namespace dotNetProjekt
 
         public string Position { get; set; }
 
+        public override string ToString()
+        {
+            return $"{EmployeeId} {FirstName} {LastName} {Address} {PhoneNumber} {Email} {Position}";
+        }
+
     }
 }

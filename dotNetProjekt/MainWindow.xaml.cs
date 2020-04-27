@@ -37,5 +37,10 @@ namespace dotNetProjekt
         {
             DataContext = new AddingEmployeeModel();
         }
+
+        private void dataButton_Click(object sender, RoutedEventArgs e)
+        {
+            DataContext = new InfoViewModel();
+        }
     }
 }

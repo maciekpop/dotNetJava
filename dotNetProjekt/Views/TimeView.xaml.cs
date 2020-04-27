@@ -32,7 +32,8 @@ namespace dotNetProjekt.Views
                 int num = LoginScreen.acutalEmployeeId;
                 DateTime begin = DateTime.Parse(DateTimePickerBegin.Text);
                 DateTime end = DateTime.Parse(DateTimePickerEnd.Text);
-                var workT = new WorkTime { WorkTimeId = actualMaxRegisterIdnumber + 1,  BeginningTime=begin, EndTime =end, EmployeeId= num};
+                double hourSpan = (end - begin).TotalHours;
+                var workT = new WorkTime { WorkTimeId = actualMaxRegisterIdnumber + 1,  BeginningTime=begin, EndTime =end, EmployeeId= num, Hours=hourSpan};
                 db.workTimes.Add(workT);
                 db.SaveChanges();
             }
