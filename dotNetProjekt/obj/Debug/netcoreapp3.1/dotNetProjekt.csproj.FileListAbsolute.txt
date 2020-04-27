@@ -98,3 +98,5 @@ C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\bin\Debug\netcoreapp3.1\ro\Xcee
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\bin\Debug\netcoreapp3.1\ru\Xceed.Wpf.AvalonDock.resources.dll
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\bin\Debug\netcoreapp3.1\sv\Xceed.Wpf.AvalonDock.resources.dll
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\bin\Debug\netcoreapp3.1\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\Views\InfoView.g.cs
+C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\Views\InfoView.baml

@@ -15,6 +15,12 @@ namespace dotNetProjekt
 
         public DateTime EndTime { get; set; }
 
-        
+        public double Hours { get; set; }
+
+        public override string ToString()
+        {
+            return $"{EmployeeId} {BeginningTime} {EndTime} {Hours}";
+
+        }
     }
 }

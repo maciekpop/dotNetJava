@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\App.xaml
-41802572430
+5-766909532
 
-241357692108
+28-398262676
 2151346504909
-LoginScreen.xaml;MainWindow.xaml;Views\AddingEmployeeView.xaml;Views\TimeView.xaml;
+LoginScreen.xaml;MainWindow.xaml;Views\AddingEmployeeView.xaml;Views\InfoView.xaml;Views\TimeView.xaml;
 
 False
 
