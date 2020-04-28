@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Robson\\Desktop\\dotNetJava\\dotNetProjekt\\dotNetProjekt.csproj": {}
+    "C:\\Users\\Maciej\\source\\repos\\dotNetJava\\dotNetProjekt\\dotNetProjekt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Robson\\Desktop\\dotNetJava\\dotNetProjekt\\dotNetProjekt.csproj": {
+    "C:\\Users\\Maciej\\source\\repos\\dotNetJava\\dotNetProjekt\\dotNetProjekt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Robson\\Desktop\\dotNetJava\\dotNetProjekt\\dotNetProjekt.csproj",
+        "projectUniqueName": "C:\\Users\\Maciej\\source\\repos\\dotNetJava\\dotNetProjekt\\dotNetProjekt.csproj",
         "projectName": "dotNetProjekt",
-        "projectPath": "C:\\Users\\Robson\\Desktop\\dotNetJava\\dotNetProjekt\\dotNetProjekt.csproj",
-        "packagesPath": "C:\\Users\\Robson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Robson\\Desktop\\dotNetJava\\dotNetProjekt\\obj\\",
+        "projectPath": "C:\\Users\\Maciej\\source\\repos\\dotNetJava\\dotNetProjekt\\dotNetProjekt.csproj",
+        "packagesPath": "C:\\Users\\Maciej\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Maciej\\source\\repos\\dotNetJava\\dotNetProjekt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Robson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Maciej\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,7 +71,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

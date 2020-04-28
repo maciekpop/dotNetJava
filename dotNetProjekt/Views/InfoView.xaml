@@ -1,1 +1,49 @@
-﻿
+﻿<UserControl x:Class="dotNetProjekt.Views.InfoView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:dotNetProjekt.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="Black">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition />
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock  Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="6" Foreground="GreenYellow" FontSize="36" Text="WorkerHourTracker" HorizontalAlignment="Center" VerticalAlignment="Center" />
+
+        <Label Name="dataLabel" Content="Data: " HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" FontSize="16"/>
+        <!-- <ListBox x:Name="dataListBox" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="4" Margin="5,5,5,5" Grid.RowSpan="4" Height="300" Width="500" HorizontalAlignment="Left" SelectionChanged="dataListBoxChanged">
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListBoxItem">
+                    <Setter Property="BorderThickness" Value="1" />
+                    <Setter Property="BorderBrush" Value="Black" />
+                </Style>
+            </ListBox.ItemContainerStyle>
+        </ListBox>-->
+
+        <DataGrid x:Name="dataGrid" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="4" Margin="5,5,5,5" Grid.RowSpan="4" Height="300" Width="500" HorizontalAlignment="Left" SelectionChanged="dataGridChanged" ScrollViewer.HorizontalScrollBarVisibility="Auto" >
+
+        </DataGrid>
+
+        <Button Name="showAllDataButton" Content="Show all employees" Grid.Column="4" Grid.Row="2" Margin="10,0,0,0"  VerticalAlignment="Top" Click="showAllDataButton_Click" />
+        <TextBox Name="textWorkerName" Text="Give employee name" Grid.Column="4" Grid.Row="2" Margin="10,0,0,0" VerticalAlignment="Center" Width="120" />
+        <Button Name="showOneWorker" Content="Search employee" Grid.Column="4" Grid.Row="2" VerticalAlignment="Bottom" Margin="10,0,0,1" Click="showOneWorker_Click" />
+        <TextBox Name="textWorkerID" Text="Give employee ID" Grid.Column="4" Grid.Row="3" Margin="10,1,0,0" VerticalAlignment="Top" Width="120" />
+        <Button Name="showWorkerTimes" Content="Show employee times" Grid.Column="4" Grid.Row="3" Margin="10,0,0,0"  VerticalAlignment="Center" Click="showWorkerTimes_Click"/>
+        <Button Name="schowMyTimes" Content="Show my times" Grid.Column="4" Grid.Row="3" Margin="10,0,0,0"  VerticalAlignment="Bottom" Click="schowMyTimes_Click"/>
+    </Grid>
+</UserControl>
