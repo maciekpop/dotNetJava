@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "04iCrnxjetHVH/51lVNSE0o8sqDyXySOV6UDr7z7kiZ4OinZsA5jsFuYqzK4wPzhWSvE5Pxun6/XgZtBTrExPg==",
+  "dgSpecHash": "jxJXEqvI/RulV9WL8JcKS/X5gY0CWxp3m4nnsUpfoPjzo9o/77VquvG4thmhaG9rXLgH9P7Zjp4ZyFvb0pFyjA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Robson\\Desktop\\dotNetJava\\dotNetProjekt\\dotNetProjekt.csproj",
+  "projectFilePath": "C:\\VS Code Programy\\dotNetJava\\dotNetProjekt\\dotNetProjekt.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Robson\\.nuget\\packages\\extended.wpf.toolkit\\3.7.0\\extended.wpf.toolkit.3.7.0.nupkg.sha512",
     "C:\\Users\\Robson\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
