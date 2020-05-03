@@ -36,7 +36,7 @@
         <TextBlock Grid.Column="1" Grid.Row="5" FontSize="20" Text="End Time: " />
         <wpfx:DateTimePicker Grid.Column="2" Grid.Row="5"  HorizontalAlignment="Center"  Name="DateTimePickerEnd"  Width="180" />
         <Button Name="RegisterBtn" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="7" Content ="Register" Click="RegisterBtn_Click"   />
-        <Image Source="C:\Users\Robson\Desktop\timeImag.png" Grid.Column="3" Grid.ColumnSpan="4" Grid.Row="2" Grid.RowSpan="8"/>
+        <Image Source="/Views/timeImag.png" Grid.Column="3" Grid.ColumnSpan="4" Grid.Row="2" Grid.RowSpan="8"/>
 
     </Grid>
 </UserControl>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "04iCrnxjetHVH/51lVNSE0o8sqDyXySOV6UDr7z7kiZ4OinZsA5jsFuYqzK4wPzhWSvE5Pxun6/XgZtBTrExPg==",
+  "dgSpecHash": "R9ZeMiz+31Ez/X2G48yDdAIRsbZDhOMxKoWAEW/D+f4IZmapAf3pzNkMLoqtdOMmaMkhen4C9IQGSfBKuGAD0Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Robson\\Desktop\\dotNetJava\\dotNetProjekt\\dotNetProjekt.csproj",
   "expectedPackageFiles": [
@@ -25,6 +25,7 @@
     "C:\\Users\\Robson\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
     "C:\\Users\\Robson\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
     "C:\\Users\\Robson\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
+    "C:\\Users\\Robson\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Robson\\.nuget\\packages\\oracle.entityframeworkcore\\2.19.60\\oracle.entityframeworkcore.2.19.60.nupkg.sha512",
     "C:\\Users\\Robson\\.nuget\\packages\\oracle.manageddataaccess.core\\2.19.60\\oracle.manageddataaccess.core.2.19.60.nupkg.sha512",
     "C:\\Users\\Robson\\.nuget\\packages\\remotion.linq\\2.2.0\\remotion.linq.2.2.0.nupkg.sha512",

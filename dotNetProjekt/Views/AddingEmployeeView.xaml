@@ -8,7 +8,7 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="C:\Users\Robson\Desktop\bg.jpg" Stretch="UniformToFill"/>
+            <ImageBrush ImageSource="/Views/bg.jpg" Stretch="UniformToFill"/>
         </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="20"/>
@@ -60,6 +60,6 @@
         <TextBlock Grid.Column="1" Grid.Row="15" FontSize="20" Text="Position: " />
         <TextBox Grid.Column="2" Grid.Row="15" Width="150" Name="positionText"/>
         <Button Name="SaveButton" Grid.Column="1" Grid.ColumnSpan="5" Grid.Row="16" Content ="Add employee" Height="20" Margin="0,20,505,0" Grid.RowSpan="2" VerticalAlignment="Top" Click="SaveButton_Click"/>
-        <Image Source="C:\Users\Robson\Desktop\emp2.png" Grid.Column="3" Grid.ColumnSpan="3" Grid.Row="3" Grid.RowSpan="17"/>
+        <Image Source="/Views/emp2.png" Grid.Column="3" Grid.ColumnSpan="3" Grid.Row="3" Grid.RowSpan="17"/>
     </Grid>
 </UserControl>

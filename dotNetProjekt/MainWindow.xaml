@@ -18,12 +18,15 @@
         <DataTemplate x:Name="dataViewTemplate" DataType="{x:Type viewmodels:InfoViewModel}">
             <views:InfoView DataContext="{Binding}"/>
         </DataTemplate>
+        <DataTemplate x:Name="weatherTemplate" DataType="{x:Type viewmodels:WeatherViewModel}">
+            <views:Weather DataContext="{Binding}"/>
+        </DataTemplate>
     </Window.Resources>
 
     <Grid>
 
         <Grid.Background>
-            <ImageBrush ImageSource="C:\Users\Robson\Desktop\powitanie.png" Stretch="UniformToFill"/>
+            <ImageBrush ImageSource="/powitanie.png" Stretch="UniformToFill"/>
         </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="20"/>
@@ -65,6 +68,7 @@
                 <Button Name="addingButton" Content="Adding Employee" Background="Black" Foreground="White" FontSize="12" Margin="1" Click="addingButton_Click" />
                 <Button Name="registerButton" Content="Register Time" Background="Black" Foreground="White" FontSize="12" Margin="1" Click="registerButton_Click"/>
                 <Button Name="dataButton" Content="Show data" Background="Black" Foreground="White" FontSize="12" Margin="1" Click="dataButton_Click"/>
+                <Button Name="weatherButton" Content="Show weather" Background="Black" Foreground="White" FontSize="12" Margin="1" Click="weatherButton_Click" />
             </StackPanel>
 
         </DockPanel>

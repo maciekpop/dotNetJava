@@ -42,5 +42,10 @@ namespace dotNetProjekt
         {
             DataContext = new InfoViewModel();
         }
+
+        private void weatherButton_Click(object sender, RoutedEventArgs e)
+        {
+            DataContext = new WeatherViewModel();
+        }
     }
 }
