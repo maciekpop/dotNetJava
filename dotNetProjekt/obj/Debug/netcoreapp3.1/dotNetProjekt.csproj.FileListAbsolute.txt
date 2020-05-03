@@ -164,5 +164,8 @@ C:\VS Code Programy\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\dotNetProje
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\Views\Weather.g.cs
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\Views\Weather.baml
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\dotNetProjekt.csproj.CoreCompileInputs.cache
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\dotNetProjekt.csprojAssemblyReference.cache
+C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\bin\Debug\netcoreapp3.1\log4net.config
+C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\dotNetProjekt_Content.g.cs
+C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\dotNetProjekt.csproj.CoreCompileInputs.cache

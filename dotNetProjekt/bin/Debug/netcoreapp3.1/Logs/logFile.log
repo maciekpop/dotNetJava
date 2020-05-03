@@ -1,0 +1,6 @@
+2020-05-03 12:08:32,262 [1] INFO dotNetProjekt.App -         =============  Started Logging  =============        
+2020-05-03 12:08:45,565 [1] INFO dotNetProjekt.MainWindow - Created main window
+2020-05-03 12:08:48,023 [1] INFO dotNetProjekt.MainWindow - Button register clicked
+2020-05-03 12:09:14,148 [1] INFO dotNetProjekt.App -         =============  Started Logging  =============        
+2020-05-03 12:09:26,846 [1] INFO dotNetProjekt.MainWindow - Created main window
+2020-05-03 12:09:28,676 [1] INFO dotNetProjekt.MainWindow - Button register clicked
