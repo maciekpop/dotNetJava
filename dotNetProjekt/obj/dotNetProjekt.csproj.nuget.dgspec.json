@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\VS Code Programy\\dotNetJava\\dotNetProjekt\\dotNetProjekt.csproj": {}
+    "C:\\Users\\Robson\\Desktop\\dotNetJava\\dotNetProjekt\\dotNetProjekt.csproj": {}
   },
   "projects": {
-    "C:\\VS Code Programy\\dotNetJava\\dotNetProjekt\\dotNetProjekt.csproj": {
+    "C:\\Users\\Robson\\Desktop\\dotNetJava\\dotNetProjekt\\dotNetProjekt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VS Code Programy\\dotNetJava\\dotNetProjekt\\dotNetProjekt.csproj",
+        "projectUniqueName": "C:\\Users\\Robson\\Desktop\\dotNetJava\\dotNetProjekt\\dotNetProjekt.csproj",
         "projectName": "dotNetProjekt",
-        "projectPath": "C:\\VS Code Programy\\dotNetJava\\dotNetProjekt\\dotNetProjekt.csproj",
+        "projectPath": "C:\\Users\\Robson\\Desktop\\dotNetJava\\dotNetProjekt\\dotNetProjekt.csproj",
         "packagesPath": "C:\\Users\\Robson\\.nuget\\packages\\",
-        "outputPath": "C:\\VS Code Programy\\dotNetJava\\dotNetProjekt\\obj\\",
+        "outputPath": "C:\\Users\\Robson\\Desktop\\dotNetJava\\dotNetProjekt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Robson\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -47,6 +47,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.6, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             },
             "Oracle.EntityFrameworkCore": {
               "target": "Package",

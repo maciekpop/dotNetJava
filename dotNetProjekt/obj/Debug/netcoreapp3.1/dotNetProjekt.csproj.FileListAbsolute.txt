@@ -68,7 +68,6 @@ C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\dotNetP
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\dotNetProjekt_MarkupCompile.lref
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\MainWindow.baml
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\dotNetProjekt.g.resources
-C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\dotNetProjekt.csproj.CoreCompileInputs.cache
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\dotNetProjekt.AssemblyInfoInputs.cache
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\dotNetProjekt.AssemblyInfo.cs
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\dotNetProjekt.csproj.CopyComplete
@@ -80,7 +79,6 @@ C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\LoginSc
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\Views\TimeView.g.cs
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\Views\TimeView.baml
-C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\dotNetProjekt.csprojAssemblyReference.cache
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\Views\AddingEmployeeView.g.cs
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\Views\AddingEmployeeView.baml
 C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\bin\Debug\netcoreapp3.1\Xceed.Wpf.AvalonDock.Themes.Aero.dll
@@ -163,3 +161,8 @@ C:\VS Code Programy\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\dotNetProje
 C:\VS Code Programy\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\dotNetProjekt.AssemblyInfo.cs
 C:\VS Code Programy\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\dotNetProjekt.csproj.CopyComplete
 C:\VS Code Programy\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\dotNetProjekt.genruntimeconfig.cache
+C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\Views\Weather.g.cs
+C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\Views\Weather.baml
+C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\dotNetProjekt.csproj.CoreCompileInputs.cache
+C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\dotNetProjekt.csprojAssemblyReference.cache
