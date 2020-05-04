@@ -22,7 +22,7 @@ namespace dotNetProjekt.Views
         public InfoView()
         {
             InitializeComponent();
-
+            MainWindow.logger.Info("Info view initialize");
         }
 
 
@@ -58,6 +58,7 @@ namespace dotNetProjekt.Views
 
         private void showOneWorker_Click(object sender, RoutedEventArgs e)
         {
+            MainWindow.logger.Info("Show one worker button clicked");
             emps.Clear();
             var name = textWorkerName.Text;
 
@@ -77,6 +78,7 @@ namespace dotNetProjekt.Views
 
         private void showWorkerTimes_Click(object sender, RoutedEventArgs e)
         {
+            MainWindow.logger.Info("Show workers time button clicked");
             times.Clear();
             int id = Int32.Parse(textWorkerID.Text);
             using (var db = new EmploeeContext())
@@ -94,6 +96,7 @@ namespace dotNetProjekt.Views
 
         private void schowMyTimes_Click(object sender, RoutedEventArgs e)
         {
+            MainWindow.logger.Info("Show my times button clicked");
             times.Clear();
             int num = LoginScreen.acutalEmployeeId;
             using (var db = new EmploeeContext())

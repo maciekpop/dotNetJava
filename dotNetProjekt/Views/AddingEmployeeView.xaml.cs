@@ -21,11 +21,13 @@ namespace dotNetProjekt.Views
     {
         public AddingEmployeeView()
         {
+            MainWindow.logger.Info("AddingEmployeeView Initialize");
             InitializeComponent();
         }
 
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
+            MainWindow.logger.Info("Save button in AddingEmployeeView clicked");
             using (var db = new EmploeeContext())
             {
                 var actualMaxIdnumber = db.employees.DefaultIfEmpty().Max(x => x.EmployeeId);

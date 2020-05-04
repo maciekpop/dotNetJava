@@ -21,11 +21,13 @@ namespace dotNetProjekt.Views
     {
         public TimeView()
         {
+            MainWindow.logger.Info("TimeView initialize");
             InitializeComponent();
         }
 
         private void RegisterBtn_Click(object sender, RoutedEventArgs e)
         {
+            MainWindow.logger.Info("Register Button in TimeView clicked");
             using (var db = new EmploeeContext())
             {
                 var actualMaxRegisterIdnumber = db.workTimes.DefaultIfEmpty().Max(x => x.WorkTimeId);

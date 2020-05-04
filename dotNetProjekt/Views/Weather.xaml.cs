@@ -22,6 +22,7 @@ namespace dotNetProjekt.Views
     {
         public Weather()
         {
+            MainWindow.logger.Info("Initalize Weather");
             InitializeComponent();
             getWeather("Wrocław");
             getForecast("Wrocław");

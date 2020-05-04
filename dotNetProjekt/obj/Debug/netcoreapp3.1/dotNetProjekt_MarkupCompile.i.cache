@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\
+C:\Users\Maciej\source\repos\dotNetJava\dotNetProjekt\obj\Debug\netcoreapp3.1\
 dotNetProjekt
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
-C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\App.xaml
+C:\Users\Maciej\source\repos\dotNetJava\dotNetProjekt\App.xaml
 6-1926238002
 1-1575529357
-3376350275
-217-1284658792
+331759938399
+217515574180
 LoginScreen.xaml;MainWindow.xaml;Views\AddingEmployeeView.xaml;Views\InfoView.xaml;Views\TimeView.xaml;Views\Weather.xaml;
 
-False
+True
 
