@@ -25,7 +25,7 @@ namespace dotNetProjekt.Views
             InitializeComponent();
         }
 
-        private void RegisterBtn_Click(object sender, RoutedEventArgs e)
+        private async void RegisterBtn_Click(object sender, RoutedEventArgs e)
         {
             MainWindow.logger.Info("Register Button in TimeView clicked");
             using (var db = new EmploeeContext())
@@ -36,8 +36,8 @@ namespace dotNetProjekt.Views
                 DateTime end = DateTime.Parse(DateTimePickerEnd.Text);
                 double hourSpan = (end - begin).TotalHours;
                 var workT = new WorkTime { WorkTimeId = actualMaxRegisterIdnumber + 1,  BeginningTime=begin, EndTime =end, EmployeeId= num, Hours=hourSpan};
-                db.workTimes.Add(workT);
-                db.SaveChanges();
+                await db.workTimes.Add(workT);
+                await db.SaveChanges();
             }
             MessageBox.Show("Time registered successfully! :)");
         }
