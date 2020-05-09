@@ -6,7 +6,7 @@ namespace Tests
 {
     public class Tests
     {
-
+       
         [Test]
         public void nameTest()
         {
@@ -34,7 +34,7 @@ namespace Tests
             Assert.AreEqual(surname, "Kowalski");
         }
 
-
+        
         [Test]
         public void phoneTest()
         {
@@ -50,9 +50,9 @@ namespace Tests
         }
 
 
-        [Test]
-        public void addressTest()
-        {
+         [Test]
+         public void addressTest()
+            {
             //Arrange
             string address;
             //Act
