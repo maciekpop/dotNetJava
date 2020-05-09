@@ -1,27 +1,17 @@
 ﻿using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
 using System.Net;
-using System.Text;
-using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+
 
 namespace dotNetProjekt.Views
 {
-    /// <summary>
-    /// Logika interakcji dla klasy Weather.xaml
-    /// </summary>
     public partial class Weather : UserControl
     {
         public Weather()
         {
+            
+            MainWindow.logger.Info("Initalize Weather");
             InitializeComponent();
             getWeather("Wrocław");
             getForecast("Wrocław");
@@ -31,8 +21,8 @@ namespace dotNetProjekt.Views
         {
             using (WebClient web = new WebClient())
             {
-                string url = string.Format("http://api.openweathermap.org/data/2.5/weather?q={0}&appid=c673e9ca6ed3280af36b5fd5888246e2&units=metric&cnt=6", city);
-                var json = web.DownloadString(url);
+               string url = string.Format("http://api.openweathermap.org/data/2.5/weather?q={0}&appid=c673e9ca6ed3280af36b5fd5888246e2&units=metric&cnt=6", city);
+                var json =  web.DownloadString(url);
                 var result = JsonConvert.DeserializeObject<WeatherInfo.root>(json);
 
                 WeatherInfo.root output = result;
@@ -50,7 +40,7 @@ namespace dotNetProjekt.Views
             {
                 string url = string.Format("http://api.openweathermap.org/data/2.5/forecast?q={0}&appid=c673e9ca6ed3280af36b5fd5888246e2&units=metric&cnt={1}", city, day);
                 var json = web.DownloadString(url);
-                var result = JsonConvert.DeserializeObject<WeatherForecast>(json);
+                var result =  JsonConvert.DeserializeObject<WeatherForecast>(json);
 
                 WeatherForecast forecast = result;
 

@@ -8,3 +8,263 @@
 2020-05-03 12:13:58,817 [1] INFO dotNetProjekt.App -         =============  Started Logging  =============        
 2020-05-03 12:14:11,465 [1] INFO dotNetProjekt.MainWindow - Created main window
 2020-05-03 12:14:14,285 [1] INFO dotNetProjekt.MainWindow - Button register clicked
+2020-05-03 13:25:21,571 [1] INFO dotNetProjekt.App -         =============  Started Logging  =============        
+2020-05-03 13:25:21,988 [1] INFO dotNetProjekt.MainWindow - Initalize login
+2020-05-03 13:25:34,376 [1] INFO dotNetProjekt.MainWindow - Correct login to system
+2020-05-03 13:25:36,105 [1] INFO dotNetProjekt.MainWindow - Created main window
+2020-05-03 13:25:37,937 [1] INFO dotNetProjekt.MainWindow - Button add employee clicked
+2020-05-03 13:25:38,649 [1] INFO dotNetProjekt.MainWindow - Button register clicked
+2020-05-03 13:25:39,600 [1] INFO dotNetProjekt.MainWindow - Button show times clicked
+2020-05-03 13:25:40,593 [1] INFO dotNetProjekt.MainWindow - Button show weather clicked
+2020-05-03 13:25:40,596 [1] INFO dotNetProjekt.MainWindow - Initalize Weather
+2020-05-03 13:33:19,024 [1] INFO dotNetProjekt.App -         =============  Started Logging  =============        
+2020-05-03 13:33:19,253 [1] INFO dotNetProjekt.MainWindow - Initalize login
+2020-05-03 13:34:12,491 [1] INFO dotNetProjekt.MainWindow - Correct login to system
+2020-05-03 13:34:14,302 [1] INFO dotNetProjekt.MainWindow - Created main window
+2020-05-03 13:34:16,322 [1] INFO dotNetProjekt.MainWindow - Button add employee clicked
+2020-05-03 13:34:16,325 [1] INFO dotNetProjekt.MainWindow - AddingEmployeeView Initialize
+2020-05-03 13:34:17,171 [1] INFO dotNetProjekt.MainWindow - Button register clicked
+2020-05-03 13:34:17,176 [1] INFO dotNetProjekt.MainWindow - TimeView initialize
+2020-05-03 13:34:17,874 [1] INFO dotNetProjekt.MainWindow - Button show times clicked
+2020-05-03 13:34:17,897 [1] INFO dotNetProjekt.MainWindow - Info view initialize
+2020-05-03 13:34:18,666 [1] INFO dotNetProjekt.MainWindow - Button show weather clicked
+2020-05-03 13:34:18,671 [1] INFO dotNetProjekt.MainWindow - Initalize Weather
+2020-05-03 13:34:33,715 [1] INFO dotNetProjekt.MainWindow - Button add employee clicked
+2020-05-03 13:34:33,717 [1] INFO dotNetProjekt.MainWindow - AddingEmployeeView Initialize
+2020-05-03 13:34:35,989 [1] INFO dotNetProjekt.MainWindow - Button register clicked
+2020-05-03 13:34:35,994 [1] INFO dotNetProjekt.MainWindow - TimeView initialize
+2020-05-03 13:34:37,191 [1] INFO dotNetProjekt.MainWindow - Button show times clicked
+2020-05-03 13:34:37,199 [1] INFO dotNetProjekt.MainWindow - Info view initialize
+2020-05-03 13:34:37,675 [1] INFO dotNetProjekt.MainWindow - Button show weather clicked
+2020-05-03 13:34:37,676 [1] INFO dotNetProjekt.MainWindow - Initalize Weather
+2020-05-03 13:34:38,708 [1] INFO dotNetProjekt.MainWindow - Button register clicked
+2020-05-03 13:34:38,709 [1] INFO dotNetProjekt.MainWindow - TimeView initialize
+2020-05-03 13:34:44,181 [1] INFO dotNetProjekt.MainWindow - Button add employee clicked
+2020-05-03 13:34:44,183 [1] INFO dotNetProjekt.MainWindow - AddingEmployeeView Initialize
+2020-05-03 13:34:45,725 [1] INFO dotNetProjekt.MainWindow - Button show times clicked
+2020-05-03 13:34:45,731 [1] INFO dotNetProjekt.MainWindow - Info view initialize
+2020-05-05 10:16:07,568 [1] INFO dotNetProjekt.App -         =============  Started Logging  =============        
+2020-05-05 10:16:07,936 [1] INFO dotNetProjekt.MainWindow - Initalize login
+2020-05-05 10:16:25,451 [1] INFO dotNetProjekt.MainWindow - Incorrect login to system
+2020-05-05 10:16:32,476 [1] INFO dotNetProjekt.MainWindow - Correct login to system
+2020-05-05 10:16:33,796 [1] INFO dotNetProjekt.MainWindow - Created main window
+2020-05-05 10:16:35,452 [1] INFO dotNetProjekt.MainWindow - Button add employee clicked
+2020-05-05 10:16:35,455 [1] INFO dotNetProjekt.MainWindow - AddingEmployeeView Initialize
+2020-05-05 10:16:36,117 [1] INFO dotNetProjekt.MainWindow - Button register clicked
+2020-05-05 10:16:36,122 [1] INFO dotNetProjekt.MainWindow - TimeView initialize
+2020-05-05 10:16:37,220 [1] INFO dotNetProjekt.MainWindow - Button show times clicked
+2020-05-05 10:16:37,243 [1] INFO dotNetProjekt.MainWindow - Info view initialize
+2020-05-05 10:16:38,228 [1] INFO dotNetProjekt.MainWindow - Button show weather clicked
+2020-05-05 10:16:38,234 [1] INFO dotNetProjekt.MainWindow - Initalize Weather
+2020-05-05 10:17:01,882 [1] INFO dotNetProjekt.MainWindow - Button add employee clicked
+2020-05-05 10:17:01,884 [1] INFO dotNetProjekt.MainWindow - AddingEmployeeView Initialize
+2020-05-05 10:17:39,569 [1] INFO dotNetProjekt.MainWindow - Save button in AddingEmployeeView clicked
+2020-05-05 10:24:11,511 [1] INFO dotNetProjekt.App -         =============  Started Logging  =============        
+2020-05-05 10:24:11,792 [1] INFO dotNetProjekt.MainWindow - Initalize login
+2020-05-05 10:24:23,790 [1] INFO dotNetProjekt.MainWindow - Correct login to system
+2020-05-05 10:24:25,586 [1] INFO dotNetProjekt.MainWindow - Created main window
+2020-05-05 10:24:28,984 [1] INFO dotNetProjekt.MainWindow - Button add employee clicked
+2020-05-05 10:24:28,988 [1] INFO dotNetProjekt.MainWindow - AddingEmployeeView Initialize
+2020-05-05 10:24:59,405 [1] INFO dotNetProjekt.MainWindow - Save button in AddingEmployeeView clicked
+2020-05-05 10:35:46,892 [1] INFO dotNetProjekt.App -         =============  Started Logging  =============        
+2020-05-05 10:35:47,263 [1] INFO dotNetProjekt.MainWindow - Initalize login
+2020-05-05 10:36:28,611 [1] INFO dotNetProjekt.App -         =============  Started Logging  =============        
+2020-05-05 10:36:28,939 [1] INFO dotNetProjekt.MainWindow - Initalize login
+2020-05-05 10:36:40,399 [1] INFO dotNetProjekt.MainWindow - Correct login to system
+2020-05-05 10:36:42,476 [1] INFO dotNetProjekt.MainWindow - Created main window
+2020-05-05 10:36:53,861 [1] INFO dotNetProjekt.MainWindow - Button add employee clicked
+2020-05-05 10:36:53,865 [1] INFO dotNetProjekt.MainWindow - AddingEmployeeView Initialize
+2020-05-05 10:37:35,660 [1] INFO dotNetProjekt.MainWindow - Save button in AddingEmployeeView clicked
+2020-05-05 10:45:20,524 [1] INFO dotNetProjekt.App -         =============  Started Logging  =============        
+2020-05-05 10:45:20,716 [1] INFO dotNetProjekt.MainWindow - Initalize login
+2020-05-05 10:45:34,582 [1] INFO dotNetProjekt.MainWindow - Correct login to system
+2020-05-05 10:45:36,945 [1] INFO dotNetProjekt.MainWindow - Created main window
+2020-05-05 10:45:38,511 [1] INFO dotNetProjekt.MainWindow - Button register clicked
+2020-05-05 10:45:38,513 [1] INFO dotNetProjekt.MainWindow - TimeView initialize
+2020-05-05 10:46:08,948 [1] INFO dotNetProjekt.MainWindow - Register Button in TimeView clicked
+2020-05-05 15:23:12,807 [1] INFO dotNetProjekt.App -         =============  Started Logging  =============        
+2020-05-05 15:23:13,174 [1] INFO dotNetProjekt.MainWindow - Initalize login
+2020-05-05 15:23:28,315 [1] INFO dotNetProjekt.MainWindow - Correct login to system
+2020-05-05 15:23:30,295 [1] INFO dotNetProjekt.MainWindow - Created main window
+2020-05-05 15:23:32,402 [1] INFO dotNetProjekt.MainWindow - Button add employee clicked
+2020-05-05 15:23:32,406 [1] INFO dotNetProjekt.MainWindow - AddingEmployeeView Initialize
+2020-05-05 15:23:33,129 [1] INFO dotNetProjekt.MainWindow - Button register clicked
+2020-05-05 15:23:33,134 [1] INFO dotNetProjekt.MainWindow - TimeView initialize
+2020-05-05 15:23:34,106 [1] INFO dotNetProjekt.MainWindow - Button show times clicked
+2020-05-05 15:23:34,137 [1] INFO dotNetProjekt.MainWindow - Info view initialize
+2020-05-05 15:23:35,393 [1] INFO dotNetProjekt.MainWindow - Button show weather clicked
+2020-05-05 15:23:35,396 [1] INFO dotNetProjekt.MainWindow - Initalize Weather
+2020-05-05 15:50:52,882 [1] INFO dotNetProjekt.App -         =============  Started Logging  =============        
+2020-05-05 15:50:53,084 [1] INFO dotNetProjekt.MainWindow - Initalize login
+2020-05-05 15:51:04,991 [1] INFO dotNetProjekt.MainWindow - Correct login to system
+2020-05-05 15:51:06,504 [1] INFO dotNetProjekt.MainWindow - Created main window
+2020-05-05 15:54:45,003 [1] INFO dotNetProjekt.MainWindow - Button add employee clicked
+2020-05-05 15:54:45,007 [1] INFO dotNetProjekt.MainWindow - AddingEmployeeView Initialize
+2020-05-05 15:54:49,055 [1] INFO dotNetProjekt.MainWindow - Button register clicked
+2020-05-05 15:54:49,059 [1] INFO dotNetProjekt.MainWindow - TimeView initialize
+2020-05-05 15:54:51,203 [1] INFO dotNetProjekt.MainWindow - Button show times clicked
+2020-05-05 15:54:51,227 [1] INFO dotNetProjekt.MainWindow - Info view initialize
+2020-05-05 15:54:54,255 [1] INFO dotNetProjekt.MainWindow - Button show weather clicked
+2020-05-05 15:54:54,258 [1] INFO dotNetProjekt.MainWindow - Initalize Weather
+2020-05-08 17:58:51,714 [1] INFO dotNetProjekt.App -         =============  Started Logging  =============        
+2020-05-08 17:58:51,963 [1] INFO dotNetProjekt.MainWindow - Initalize login
+2020-05-08 19:20:55,751 [1] INFO dotNetProjekt.App -         =============  Started Logging  =============        
+2020-05-08 19:20:56,112 [1] INFO dotNetProjekt.MainWindow - Initalize login
+2020-05-08 19:55:58,452 [1] INFO dotNetProjekt.App -         =============  Started Logging  =============        
+2020-05-08 19:55:58,994 [1] INFO dotNetProjekt.MainWindow - Initalize login
+2020-05-08 20:25:38,443 [1] INFO dotNetProjekt.App -         =============  Started Logging  =============        
+2020-05-08 20:25:38,734 [1] INFO dotNetProjekt.MainWindow - Initalize login
+2020-05-09 16:37:40,954 [1] INFO dotNetProjekt.App -         =============  Started Logging  =============        
+2020-05-09 16:37:41,393 [1] INFO dotNetProjekt.MainWindow - Initalize login
+2020-05-09 16:38:04,589 [1] INFO dotNetProjekt.MainWindow - Correct login to system
+2020-05-09 16:38:06,654 [1] INFO dotNetProjekt.MainWindow - Created main window
+2020-05-09 16:38:09,455 [1] INFO dotNetProjekt.MainWindow - Button add employee clicked
+2020-05-09 16:38:09,459 [1] INFO dotNetProjekt.MainWindow - AddingEmployeeView Initialize
+2020-05-09 16:38:15,482 [1] INFO dotNetProjekt.MainWindow - Save button in AddingEmployeeView clicked
+2020-05-09 16:45:32,846 [1] INFO dotNetProjekt.App -         =============  Started Logging  =============        
+2020-05-09 16:45:33,085 [1] INFO dotNetProjekt.MainWindow - Initalize login
+2020-05-09 16:45:44,349 [1] INFO dotNetProjekt.MainWindow - Correct login to system
+2020-05-09 16:45:45,951 [1] INFO dotNetProjekt.MainWindow - Created main window
+2020-05-09 16:45:47,446 [1] INFO dotNetProjekt.MainWindow - Button add employee clicked
+2020-05-09 16:45:47,448 [1] INFO dotNetProjekt.MainWindow - AddingEmployeeView Initialize
+2020-05-09 16:45:52,830 [1] INFO dotNetProjekt.MainWindow - Save button in AddingEmployeeView clicked
+2020-05-09 16:46:01,944 [1] INFO dotNetProjekt.MainWindow - Button register clicked
+2020-05-09 16:46:01,950 [1] INFO dotNetProjekt.MainWindow - TimeView initialize
+2020-05-09 16:46:04,992 [1] INFO dotNetProjekt.MainWindow - Register Button in TimeView clicked
+2020-05-09 16:49:44,158 [1] INFO dotNetProjekt.App -         =============  Started Logging  =============        
+2020-05-09 16:49:44,402 [1] INFO dotNetProjekt.MainWindow - Initalize login
+2020-05-09 16:49:55,600 [1] INFO dotNetProjekt.MainWindow - Correct login to system
+2020-05-09 16:49:57,295 [1] INFO dotNetProjekt.MainWindow - Created main window
+2020-05-09 16:49:58,624 [1] INFO dotNetProjekt.MainWindow - Button add employee clicked
+2020-05-09 16:49:58,628 [1] INFO dotNetProjekt.MainWindow - AddingEmployeeView Initialize
+2020-05-09 16:50:01,162 [1] INFO dotNetProjekt.MainWindow - Save button in AddingEmployeeView clicked
+2020-05-09 16:50:01,345 [1] INFO dotNetProjekt.MainWindow - Error occured
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at dotNetProjekt.Views.AddingEmployeeView.SaveButton_Click(Object sender, RoutedEventArgs e) in C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\Views\AddingEmployeeView.xaml.cs:line 30
+2020-05-09 16:50:03,552 [1] INFO dotNetProjekt.MainWindow - Button register clicked
+2020-05-09 16:50:03,557 [1] INFO dotNetProjekt.MainWindow - TimeView initialize
+2020-05-09 16:50:07,658 [1] INFO dotNetProjekt.MainWindow - Register Button in TimeView clicked
+2020-05-09 16:50:07,722 [1] INFO dotNetProjekt.MainWindow - Error occured
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.DateTime.Parse(String s)
+   at dotNetProjekt.Views.TimeView.RegisterBtn_Click(Object sender, RoutedEventArgs e) in C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\Views\TimeView.xaml.cs:line 38
+2020-05-09 16:50:10,505 [1] INFO dotNetProjekt.MainWindow - Button show times clicked
+2020-05-09 16:50:10,539 [1] INFO dotNetProjekt.MainWindow - Info view initialize
+2020-05-09 16:50:14,401 [1] INFO dotNetProjekt.MainWindow - Show one worker button clicked
+2020-05-09 16:50:21,346 [1] INFO dotNetProjekt.MainWindow - Show my times button clicked
+2020-05-09 16:50:22,875 [1] INFO dotNetProjekt.MainWindow - Show workers time button clicked
+2020-05-09 16:52:22,769 [1] INFO dotNetProjekt.App -         =============  Started Logging  =============        
+2020-05-09 16:52:23,094 [1] INFO dotNetProjekt.MainWindow - Initalize login
+2020-05-09 16:52:35,076 [1] INFO dotNetProjekt.MainWindow - Correct login to system
+2020-05-09 16:52:36,368 [1] INFO dotNetProjekt.MainWindow - Created main window
+2020-05-09 16:52:37,830 [1] INFO dotNetProjekt.MainWindow - Button show times clicked
+2020-05-09 16:52:37,862 [1] INFO dotNetProjekt.MainWindow - Info view initialize
+2020-05-09 16:52:40,654 [1] INFO dotNetProjekt.MainWindow - Show workers time button clicked
+2020-05-09 16:52:40,718 [1] INFO dotNetProjekt.MainWindow - Error occured
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at dotNetProjekt.Views.InfoView.showWorkerTimes_Click(Object sender, RoutedEventArgs e) in C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\Views\InfoView.xaml.cs:line 78
+2020-05-09 16:52:43,167 [1] INFO dotNetProjekt.MainWindow - Show one worker button clicked
+2020-05-09 16:52:45,078 [1] INFO dotNetProjekt.MainWindow - Show one worker button clicked
+2020-05-09 16:52:52,503 [1] INFO dotNetProjekt.MainWindow - Show one worker button clicked
+2020-05-09 16:52:53,768 [1] INFO dotNetProjekt.MainWindow - Show one worker button clicked
+2020-05-09 16:52:55,017 [1] INFO dotNetProjekt.MainWindow - Show my times button clicked
+2020-05-09 16:52:56,640 [1] INFO dotNetProjekt.MainWindow - Show one worker button clicked
+2020-05-09 16:53:00,985 [1] INFO dotNetProjekt.MainWindow - Show one worker button clicked
+2020-05-09 16:53:01,785 [1] INFO dotNetProjekt.MainWindow - Show workers time button clicked
+2020-05-09 16:53:01,829 [1] INFO dotNetProjekt.MainWindow - Error occured
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at dotNetProjekt.Views.InfoView.showWorkerTimes_Click(Object sender, RoutedEventArgs e) in C:\Users\Robson\Desktop\dotNetJava\dotNetProjekt\Views\InfoView.xaml.cs:line 78
+2020-05-09 16:53:04,161 [1] INFO dotNetProjekt.MainWindow - Show my times button clicked
+2020-05-09 16:53:07,289 [1] INFO dotNetProjekt.MainWindow - Show one worker button clicked
+2020-05-09 16:53:10,114 [1] INFO dotNetProjekt.MainWindow - Show one worker button clicked
+2020-05-09 16:53:10,274 [1] INFO dotNetProjekt.MainWindow - Show one worker button clicked
+2020-05-09 16:53:11,538 [1] INFO dotNetProjekt.MainWindow - Show one worker button clicked
+2020-05-09 16:53:13,524 [1] INFO dotNetProjekt.MainWindow - Button show weather clicked
+2020-05-09 16:53:13,536 [1] INFO dotNetProjekt.MainWindow - Initalize Weather
+2020-05-09 16:53:28,126 [1] INFO dotNetProjekt.MainWindow - Button show times clicked
+2020-05-09 16:53:28,132 [1] INFO dotNetProjekt.MainWindow - Info view initialize
+2020-05-09 16:53:28,838 [1] INFO dotNetProjekt.MainWindow - Button register clicked
+2020-05-09 16:53:28,843 [1] INFO dotNetProjekt.MainWindow - TimeView initialize
+2020-05-09 16:53:30,110 [1] INFO dotNetProjekt.MainWindow - Button add employee clicked
+2020-05-09 16:53:30,113 [1] INFO dotNetProjekt.MainWindow - AddingEmployeeView Initialize
+2020-05-09 16:53:31,709 [1] INFO dotNetProjekt.MainWindow - Button register clicked
+2020-05-09 16:53:31,712 [1] INFO dotNetProjekt.MainWindow - TimeView initialize
+2020-05-09 16:53:32,797 [1] INFO dotNetProjekt.MainWindow - Button show times clicked
+2020-05-09 16:53:32,808 [1] INFO dotNetProjekt.MainWindow - Info view initialize
+2020-05-09 16:53:34,518 [1] INFO dotNetProjekt.MainWindow - Button show weather clicked
+2020-05-09 16:53:34,520 [1] INFO dotNetProjekt.MainWindow - Initalize Weather
+2020-05-09 16:53:42,351 [1] INFO dotNetProjekt.MainWindow - Button show times clicked
+2020-05-09 16:53:42,356 [1] INFO dotNetProjekt.MainWindow - Info view initialize
+2020-05-09 16:53:43,479 [1] INFO dotNetProjekt.MainWindow - Show my times button clicked
+2020-05-09 16:53:51,064 [1] INFO dotNetProjekt.MainWindow - Button add employee clicked
+2020-05-09 16:53:51,071 [1] INFO dotNetProjekt.MainWindow - AddingEmployeeView Initialize
+2020-05-09 16:53:53,874 [1] INFO dotNetProjekt.MainWindow - Button register clicked
+2020-05-09 16:53:53,876 [1] INFO dotNetProjekt.MainWindow - TimeView initialize
+2020-05-09 16:53:54,826 [1] INFO dotNetProjekt.MainWindow - Button show times clicked
+2020-05-09 16:53:54,831 [1] INFO dotNetProjekt.MainWindow - Info view initialize
+2020-05-09 16:53:55,689 [1] INFO dotNetProjekt.MainWindow - Button show weather clicked
+2020-05-09 16:53:55,691 [1] INFO dotNetProjekt.MainWindow - Initalize Weather
+2020-05-09 17:09:27,451 [1] INFO dotNetProjekt.App -         =============  Started Logging  =============        
+2020-05-09 17:09:27,749 [1] INFO dotNetProjekt.MainWindow - Initalize login
+2020-05-09 17:09:39,556 [1] INFO dotNetProjekt.MainWindow - Correct login to system
+2020-05-09 17:09:41,044 [1] INFO dotNetProjekt.MainWindow - Created main window
+2020-05-09 17:09:42,514 [1] INFO dotNetProjekt.MainWindow - Button add employee clicked
+2020-05-09 17:09:42,517 [1] INFO dotNetProjekt.MainWindow - AddingEmployeeView Initialize
+2020-05-09 17:09:43,186 [1] INFO dotNetProjekt.MainWindow - Button register clicked
+2020-05-09 17:09:43,191 [1] INFO dotNetProjekt.MainWindow - TimeView initialize
+2020-05-09 17:09:44,249 [1] INFO dotNetProjekt.MainWindow - Button show times clicked
+2020-05-09 17:09:44,273 [1] INFO dotNetProjekt.MainWindow - Info view initialize
+2020-05-09 17:09:44,969 [1] INFO dotNetProjekt.MainWindow - Button show weather clicked
+2020-05-09 17:09:44,972 [1] INFO dotNetProjekt.MainWindow - Initalize Weather
+2020-05-09 17:44:29,592 [1] INFO dotNetProjekt.App -         =============  Started Logging  =============        
+2020-05-09 17:44:29,974 [1] INFO dotNetProjekt.MainWindow - Initalize login
+2020-05-09 17:44:43,659 [1] INFO dotNetProjekt.MainWindow - Correct login to system
+2020-05-09 17:44:45,538 [1] INFO dotNetProjekt.MainWindow - Created main window
+2020-05-09 17:44:47,656 [1] INFO dotNetProjekt.MainWindow - Button add employee clicked
+2020-05-09 17:44:47,661 [1] INFO dotNetProjekt.MainWindow - AddingEmployeeView Initialize
+2020-05-09 17:44:48,647 [1] INFO dotNetProjekt.MainWindow - Button register clicked
+2020-05-09 17:44:48,654 [1] INFO dotNetProjekt.MainWindow - TimeView initialize
+2020-05-09 17:44:49,678 [1] INFO dotNetProjekt.MainWindow - Button show times clicked
+2020-05-09 17:44:49,726 [1] INFO dotNetProjekt.MainWindow - Info view initialize
+2020-05-09 17:44:51,616 [1] INFO dotNetProjekt.MainWindow - Button show weather clicked
+2020-05-09 17:44:51,620 [1] INFO dotNetProjekt.MainWindow - Initalize Weather
+2020-05-09 17:47:49,638 [1] INFO dotNetProjekt.App -         =============  Started Logging  =============        
+2020-05-09 17:47:49,876 [1] INFO dotNetProjekt.MainWindow - Initalize login
+2020-05-09 17:48:00,987 [1] INFO dotNetProjekt.MainWindow - Correct login to system
+2020-05-09 17:48:02,636 [1] INFO dotNetProjekt.MainWindow - Created main window
+2020-05-09 17:48:04,210 [1] INFO dotNetProjekt.MainWindow - Button show times clicked
+2020-05-09 17:48:04,228 [1] INFO dotNetProjekt.MainWindow - Info view initialize
+2020-05-09 17:48:07,267 [1] INFO dotNetProjekt.MainWindow - Show my times button clicked
+2020-05-09 17:50:29,689 [1] INFO dotNetProjekt.App -         =============  Started Logging  =============        
+2020-05-09 17:50:29,942 [1] INFO dotNetProjekt.MainWindow - Initalize login
+2020-05-09 17:50:41,864 [1] INFO dotNetProjekt.MainWindow - Correct login to system
+2020-05-09 17:50:43,244 [1] INFO dotNetProjekt.MainWindow - Created main window
+2020-05-09 17:50:45,085 [1] INFO dotNetProjekt.MainWindow - Button add employee clicked
+2020-05-09 17:50:45,087 [1] INFO dotNetProjekt.MainWindow - AddingEmployeeView Initialize
+2020-05-09 17:50:45,749 [1] INFO dotNetProjekt.MainWindow - Button register clicked
+2020-05-09 17:50:45,754 [1] INFO dotNetProjekt.MainWindow - TimeView initialize
+2020-05-09 17:50:46,933 [1] INFO dotNetProjekt.MainWindow - Button show times clicked
+2020-05-09 17:50:46,966 [1] INFO dotNetProjekt.MainWindow - Info view initialize
+2020-05-09 17:50:47,892 [1] INFO dotNetProjekt.MainWindow - Button show weather clicked
+2020-05-09 17:50:47,896 [1] INFO dotNetProjekt.MainWindow - Initalize Weather
+2020-05-09 17:55:45,960 [1] INFO dotNetProjekt.App -         =============  Started Logging  =============        
+2020-05-09 17:55:46,438 [1] INFO dotNetProjekt.MainWindow - Initalize login
+2020-05-09 17:55:58,518 [1] INFO dotNetProjekt.MainWindow - Correct login to system
+2020-05-09 17:56:00,159 [1] INFO dotNetProjekt.MainWindow - Created main window
+2020-05-09 17:56:01,587 [1] INFO dotNetProjekt.MainWindow - Button add employee clicked
+2020-05-09 17:56:01,590 [1] INFO dotNetProjekt.MainWindow - AddingEmployeeView Initialize
+2020-05-09 17:56:03,445 [1] INFO dotNetProjekt.MainWindow - Button register clicked
+2020-05-09 17:56:03,452 [1] INFO dotNetProjekt.MainWindow - TimeView initialize
+2020-05-09 17:56:04,978 [1] INFO dotNetProjekt.MainWindow - Button show times clicked
+2020-05-09 17:56:04,998 [1] INFO dotNetProjekt.MainWindow - Info view initialize
+2020-05-09 17:56:10,034 [1] INFO dotNetProjekt.MainWindow - Button show weather clicked
+2020-05-09 17:56:10,037 [1] INFO dotNetProjekt.MainWindow - Initalize Weather

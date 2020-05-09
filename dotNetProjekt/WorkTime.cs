@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace dotNetProjekt
 {
@@ -17,10 +15,5 @@ namespace dotNetProjekt
 
         public double Hours { get; set; }
 
-        public override string ToString()
-        {
-            return $"{EmployeeId} {BeginningTime} {EndTime} {Hours}";
-
-        }
     }
 }

@@ -35,7 +35,7 @@
             </ListBox.ItemContainerStyle>
         </ListBox>-->
 
-        <DataGrid x:Name="dataGrid" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="4" Margin="5,5,5,5" Grid.RowSpan="4" Height="300" Width="500" HorizontalAlignment="Left" SelectionChanged="dataGridChanged" ScrollViewer.HorizontalScrollBarVisibility="Auto" >
+        <DataGrid x:Name="dataGrid" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="4" Margin="5,5,5,5" Grid.RowSpan="4" Height="300" Width="500" HorizontalAlignment="Left"  ScrollViewer.HorizontalScrollBarVisibility="Auto" >
 
         </DataGrid>
 

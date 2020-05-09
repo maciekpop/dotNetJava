@@ -1,27 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+
 
 namespace dotNetProjekt.Views
 {
-    /// <summary>
-    /// Logika interakcji dla klasy InfoView.xaml
-    /// </summary>
     public partial class InfoView : UserControl
     {
         public InfoView()
         {
             InitializeComponent();
+            MainWindow.logger.Info("Info view initialize");
 
         }
 
@@ -30,34 +21,27 @@ namespace dotNetProjekt.Views
         List<WorkTime> times = new List<WorkTime>();
 
 
-        private void dataListBoxChanged(object sender, SelectionChangedEventArgs e)
-        {
-            // MessageBox.Show(dataListBox.SelectedItem.ToString());
-        }
+       
 
         private void showAllDataButton_Click(object sender, RoutedEventArgs e)
         {
             emps.Clear();
-            // dataLabel.Content = "Id FirstName SecondName Address PhoneNumber Email Position";
             using (var db = new EmploeeContext())
             {
                 foreach (var ss in db.employees)
                 {
                     emps.Add(ss);
                 }
-                //dataListBox.ItemsSource = emps;
                 dataGrid.ItemsSource = emps;
 
             }
         }
 
-        private void dataGridChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
+        
 
         private void showOneWorker_Click(object sender, RoutedEventArgs e)
         {
+            MainWindow.logger.Info("Show one worker button clicked");
             emps.Clear();
             var name = textWorkerName.Text;
 
@@ -77,23 +61,33 @@ namespace dotNetProjekt.Views
 
         private void showWorkerTimes_Click(object sender, RoutedEventArgs e)
         {
+            MainWindow.logger.Info("Show workers time button clicked");
             times.Clear();
-            int id = Int32.Parse(textWorkerID.Text);
-            using (var db = new EmploeeContext())
+            try
             {
-                var rec = db.workTimes.Where(x => x.EmployeeId == id).ToList();
-
-                foreach (var ss in rec)
+                int id = Int32.Parse(textWorkerID.Text);
+                using (var db = new EmploeeContext())
                 {
-                    times.Add(ss);
-                }
+                    var rec = db.workTimes.Where(x => x.EmployeeId == id).ToList();
 
-                dataGrid.ItemsSource = times;
+                    foreach (var ss in rec)
+                    {
+                        times.Add(ss);
+                    }
+
+                    dataGrid.ItemsSource = times;
+                }
+            }
+            catch(System.FormatException e3)
+            {
+                MainWindow.logger.Info("Error occured", e3);
+                MessageBox.Show("Incorrect data. Try again.");
             }
         }
 
         private void schowMyTimes_Click(object sender, RoutedEventArgs e)
         {
+            MainWindow.logger.Info("Show my times button clicked");
             times.Clear();
             int num = LoginScreen.acutalEmployeeId;
             using (var db = new EmploeeContext())
