@@ -36,8 +36,8 @@ namespace dotNetProjekt.Views
                 DateTime end = DateTime.Parse(DateTimePickerEnd.Text);
                 double hourSpan = (end - begin).TotalHours;
                 var workT = new WorkTime { WorkTimeId = actualMaxRegisterIdnumber + 1,  BeginningTime=begin, EndTime =end, EmployeeId= num, Hours=hourSpan};
-                await db.workTimes.Add(workT);
-                await db.SaveChanges();
+                await db.workTimes.AddAsync(workT);
+                await db.SaveChangesAsync();
             }
             MessageBox.Show("Time registered successfully! :)");
         }
