@@ -18,10 +18,10 @@ namespace dotNetProjekt
                     var testEmp = new Employee { EmployeeId = actualMaxIdnumber + 1, FirstName = "Jan", LastName = "Kowalski", Address = "Warszawa", Email = "jank@gmail.com", PhoneNumber = 725321843, Position = "tester" };
                     db.employees.Add(testEmp);
                     db.SaveChanges();
-
+                    
                 }
 
-
+               
             }
         }
 
@@ -30,7 +30,7 @@ namespace dotNetProjekt
             using (var db = new EmploeeContext())
             {
                 return db.employees.Where(x => x.Position == "tester").Select(u => u.FirstName).FirstOrDefault().ToString();
-            }
+            } 
         }
 
         public static string giveSurame()
