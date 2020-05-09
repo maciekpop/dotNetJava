@@ -268,3 +268,15 @@ System.FormatException: Input string was not in a correct format.
 2020-05-09 17:56:04,998 [1] INFO dotNetProjekt.MainWindow - Info view initialize
 2020-05-09 17:56:10,034 [1] INFO dotNetProjekt.MainWindow - Button show weather clicked
 2020-05-09 17:56:10,037 [1] INFO dotNetProjekt.MainWindow - Initalize Weather
+2020-05-09 23:15:41,904 [1] INFO dotNetProjekt.App -         =============  Started Logging  =============        
+2020-05-09 23:15:42,229 [1] INFO dotNetProjekt.MainWindow - Initalize login
+2020-05-09 23:17:13,720 [1] INFO dotNetProjekt.MainWindow - Correct login to system
+2020-05-09 23:17:16,001 [1] INFO dotNetProjekt.MainWindow - Created main window
+2020-05-09 23:17:42,629 [1] INFO dotNetProjekt.MainWindow - Button add employee clicked
+2020-05-09 23:17:42,632 [1] INFO dotNetProjekt.MainWindow - AddingEmployeeView Initialize
+2020-05-09 23:18:00,391 [1] INFO dotNetProjekt.MainWindow - Button register clicked
+2020-05-09 23:18:00,395 [1] INFO dotNetProjekt.MainWindow - TimeView initialize
+2020-05-09 23:18:25,214 [1] INFO dotNetProjekt.MainWindow - Button show times clicked
+2020-05-09 23:18:25,241 [1] INFO dotNetProjekt.MainWindow - Info view initialize
+2020-05-09 23:18:55,197 [1] INFO dotNetProjekt.MainWindow - Button show weather clicked
+2020-05-09 23:18:55,200 [1] INFO dotNetProjekt.MainWindow - Initalize Weather
