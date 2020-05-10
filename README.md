@@ -13,6 +13,9 @@ WorkerHourTracker is simple app written in C#.Net with WPF using Oracle database
 * Newtonsoft.Json
 * Oracle.EntityFrameworkCore 
 
+## API
+[OpenWeather](https://openweathermap.org/api)
+
 ## Installation and configuration 
 ```git
 git clone https://github.com/maciekpop/dotNetJava.git 
