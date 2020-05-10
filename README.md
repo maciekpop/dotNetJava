@@ -24,7 +24,7 @@ open app
 ```
 * install Oracle database on your local computer
 * create new database and configurate ConnectionString in EmploeeContext.cs file
-* add new migration to database
+* update database
 * run application
 
 ## Views from app
