@@ -10,7 +10,7 @@ WorkerHourTracker is simple app written in C#.Net with WPF using Oracle database
 * Extended.Wpf.Toolkit
 * log4net
 * Microsoft.EntityFrameworkCore.Tools
-* Newtonsofr.Json
+* Newtonsoft.Json
 * Oracle.EntityFrameworkCore 
 
 ## Installation and configuration 
