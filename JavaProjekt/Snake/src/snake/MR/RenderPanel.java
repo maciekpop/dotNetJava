@@ -22,5 +22,13 @@ public class RenderPanel extends JPanel {
         }
         g.fillRect(snake.head.x * Snake.SCALE, snake.head.y * Snake.SCALE, Snake.SCALE, Snake.SCALE);
 
+        g.setColor(Color.RED);
+        g.fillRect(snake.cherry.x * Snake.SCALE, snake.cherry.y * Snake.SCALE, Snake.SCALE, Snake.SCALE);
+
+        String string = "Score: " + snake.score + ", Length: " + snake.tailLength;
+        g.setColor(Color.green);
+        //g.drawString(string, (int)(snake.dim.getWidth() / 2 - string.length() ), 20);
+        g.drawString(string, 340,20);
+
     }
 }
