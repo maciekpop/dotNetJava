@@ -6,6 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.io.File;
 import java.security.Key;
 import java.util.ArrayList;
 import java.util.Random;
@@ -26,13 +27,17 @@ public class Snake implements ActionListener, KeyListener {
 
     public int ticks = 0, direction = DOWN, score, tailLength;
 
-    public Point head, cherry;
+    public Point head, scorePoint;
 
     public Random random;
 
     Dimension dim;
 
     public boolean over = false, paused;
+
+    static String filepath = new File( "Music/Mozart - Turkish March.wav").getAbsolutePath();
+
+    static MusicStuff musicStuff = new MusicStuff();
 
     public Snake(){
         dim = Toolkit.getDefaultToolkit().getScreenSize();
@@ -57,8 +62,10 @@ public class Snake implements ActionListener, KeyListener {
         head = new Point(0,-1);
         random = new Random();
         snakeParts.clear();
-        cherry = new Point(random.nextInt(77), random.nextInt(75));
+        scorePoint = new Point(random.nextInt(77), random.nextInt(75));
         timer.start();
+
+
 
     }
 
@@ -121,12 +128,12 @@ public class Snake implements ActionListener, KeyListener {
                 snakeParts.remove(0);
             }
 
-            if(cherry != null) {
-                if (head.x == cherry.x && head.y == cherry.y)
+            if(scorePoint != null) {
+                if (head.x == scorePoint.x && head.y == scorePoint.y)
                 {
                     score += 10;
                     tailLength++;
-                    cherry.setLocation(random.nextInt(77), random.nextInt(75));
+                    scorePoint.setLocation(random.nextInt(77), random.nextInt(75));
                 }
             }
 
@@ -150,6 +157,8 @@ public class Snake implements ActionListener, KeyListener {
 
     public static void main(String[] args){
         snake = new Snake();
+
+        musicStuff.playMusic(filepath);
 
     }
 
