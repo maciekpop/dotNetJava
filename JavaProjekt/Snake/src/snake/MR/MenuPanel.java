@@ -3,7 +3,7 @@ package snake.MR;
 import javax.swing.*;
 import java.awt.*;
 
-public class RobsPanel extends JPanel {
+public class MenuPanel extends JPanel {
 
     @Override
     protected void paintComponent(Graphics g) {

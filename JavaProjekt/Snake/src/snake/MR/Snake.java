@@ -41,7 +41,7 @@ public class Snake implements ActionListener, KeyListener {
     MusicListener musicListener = new MusicListener();
     HighScoreListener highScoreListener = new HighScoreListener();
 
-    public RobsPanel robsonPanel;
+    public MenuPanel menuPanel;
 
     JButton startButton, highestScoreButton, musicButton, quitButton;
 
@@ -66,12 +66,12 @@ public class Snake implements ActionListener, KeyListener {
         filepath = new File( "Music/Mozart - Turkish March.wav").getAbsolutePath();
         musicStuff = new MusicStuff();
         setButtons();
-        robsonPanel.setLayout(null);
-        robsonPanel.add(startButton);
-        robsonPanel.add(highestScoreButton);
-        robsonPanel.add(musicButton);
-        robsonPanel.add(quitButton);
-        jFrame.add(robsonPanel);
+        menuPanel.setLayout(null);
+        menuPanel.add(startButton);
+        menuPanel.add(highestScoreButton);
+        menuPanel.add(musicButton);
+        menuPanel.add(quitButton);
+        jFrame.add(menuPanel);
         highscore = 0;
 
     }
@@ -106,7 +106,7 @@ public class Snake implements ActionListener, KeyListener {
         quitButton.setFont(fontButton);
         quitButton.setBounds(320,525,160,100);
         quitButton.setFocusable(false);
-        robsonPanel  = new RobsPanel();
+        menuPanel  = new MenuPanel();
     }
 
 
@@ -235,10 +235,6 @@ public class Snake implements ActionListener, KeyListener {
     public static void main(String[] args){
          Snake snake = new Snake();
 
-
-
-
-
     }
 
 
@@ -293,15 +289,15 @@ public class Snake implements ActionListener, KeyListener {
             }
 
         if (i == KeyEvent.VK_ESCAPE) {
-            robsonPanel = new RobsPanel();
-            robsonPanel.setLayout(null);
-            robsonPanel.add(startButton);
-            robsonPanel.add(highestScoreButton);
-            robsonPanel.add(musicButton);
-            robsonPanel.add(quitButton);
+            menuPanel = new MenuPanel();
+            menuPanel.setLayout(null);
+            menuPanel.add(startButton);
+            menuPanel.add(highestScoreButton);
+            menuPanel.add(musicButton);
+            menuPanel.add(quitButton);
             renderPanel.setVisible(false);
             jFrame.remove(renderPanel);
-            jFrame.add(robsonPanel);
+            jFrame.add(menuPanel);
 
 
         }
@@ -323,8 +319,8 @@ public class Snake implements ActionListener, KeyListener {
     }
     public void create()
     {
-        robsonPanel.setVisible(false);
-        jFrame.remove(robsonPanel);
+        menuPanel.setVisible(false);
+        jFrame.remove(menuPanel);
         renderPanel = new RenderPanel();
         jFrame.add(renderPanel);
         startGame();
