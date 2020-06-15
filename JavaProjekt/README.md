@@ -10,7 +10,7 @@ Simple snake variation implemmented in Java.
 * Music choice
 * Game pausing
 
-## Installation and configuration 
+## Installation
 ```git
 git clone https://github.com/maciekpop/dotNetJava.git 
 cd dotNetJava/
