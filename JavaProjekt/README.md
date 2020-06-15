@@ -14,16 +14,17 @@
 ```git
 git clone https://github.com/maciekpop/dotNetJava.git 
 cd dotNetJava/
+cd JavaProjekt/
 cd Snake/
 run application
 ```
 
 ## Views from app
-![](dotNetJava/JavaProjekt/Snake/images/Menu.png)
-![](dotNetJava/JavaProjekt/Snake/images/Mozart.png)
-![](dotNetJava/JavaProjekt/Snake/images/paused.png)
-![](dotNetJava/JavaProjekt/Snake/images/highScore.png)
-![](dotNetJava/JavaProjekt/Snake/images/highScoreJpanel.png)
+![](Snake/images/Menu.png)
+![](Snake/images/Mozart.png)
+![](Snake/images/paused.png)
+![](Snake/images/highScore.png)
+![](Snake/images/highScoreJpanel.png)
 
 ## Instructions
 * Moving: WASD
