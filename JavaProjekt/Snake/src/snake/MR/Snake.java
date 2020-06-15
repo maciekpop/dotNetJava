@@ -51,7 +51,7 @@ public class Snake implements ActionListener, KeyListener {
 
     MusicStuff musicStuff;
 
-    JLabel pauseLbl;
+    JLabel pauseLbl, gameOverLabel, pressSpaceLabel;
 
     public Snake(){
 
@@ -154,6 +154,8 @@ public class Snake implements ActionListener, KeyListener {
                 else {
                     startGame();
                 }
+                renderPanel.remove(gameOverLabel);
+                renderPanel.remove(pressSpaceLabel);
 
             }
 
@@ -168,6 +170,7 @@ public class Snake implements ActionListener, KeyListener {
 
                     } else {
                         over = true;
+                        gameOverLabel();
                     }
 
 
@@ -179,6 +182,7 @@ public class Snake implements ActionListener, KeyListener {
 
                     } else {
                         over = true;
+                        gameOverLabel();
                     }
                 }
                 if (direction == RIGHT) {
@@ -188,6 +192,7 @@ public class Snake implements ActionListener, KeyListener {
 
                     } else {
                         over = true;
+                        gameOverLabel();
                     }
                 }
                 if (direction == LEFT) {
@@ -199,6 +204,7 @@ public class Snake implements ActionListener, KeyListener {
 
                     } else {
                         over = true;
+                        gameOverLabel();
                     }
                 }
 
@@ -268,6 +274,8 @@ public class Snake implements ActionListener, KeyListener {
 
             if (i == KeyEvent.VK_SPACE) {
                 if (over) {
+                    renderPanel.remove(gameOverLabel);
+                    renderPanel.remove(pressSpaceLabel);
                     startGame();
                 } else {
                     paused = !paused;
@@ -289,6 +297,7 @@ public class Snake implements ActionListener, KeyListener {
             }
 
         if (i == KeyEvent.VK_ESCAPE) {
+            paused = true;
             menuPanel = new MenuPanel();
             menuPanel.setLayout(null);
             menuPanel.add(startButton);
@@ -301,6 +310,23 @@ public class Snake implements ActionListener, KeyListener {
 
 
         }
+    }
+
+    public void gameOverLabel()
+    {
+        gameOverLabel = new JLabel("Game over");
+        gameOverLabel.setBounds(160, 250, 560, 150);
+        gameOverLabel.setFont(new Font("Verdana", Font.BOLD, 80));
+        gameOverLabel.setVisible(true);
+        gameOverLabel.setForeground(Color.WHITE);
+        pressSpaceLabel = new JLabel("Press space to play again");
+        pressSpaceLabel.setBounds(276, 350, 560, 50);
+        pressSpaceLabel.setFont(new Font("Verdana", Font.BOLD, 20));
+        pressSpaceLabel.setVisible(true);
+        pressSpaceLabel.setForeground(Color.WHITE);
+        renderPanel.add(gameOverLabel);
+        renderPanel.add(pressSpaceLabel);
+
     }
 
 
