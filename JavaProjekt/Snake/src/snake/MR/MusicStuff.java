@@ -22,8 +22,6 @@ public class MusicStuff {
                 clip.start();
                 clip.loop(Clip.LOOP_CONTINUOUSLY);
 
-
-
             }
             else
             {

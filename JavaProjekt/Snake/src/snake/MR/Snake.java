@@ -161,9 +161,9 @@ public class Snake implements ActionListener, KeyListener {
 
                 snakeParts.add(new Point(head.x, head.y));
 
-                if (direction == UP && noTailAt(head.x, head.y - 1)) {
+                if (direction == UP) {
 
-                    if (head.y - 1 >= 0) {
+                    if (head.y - 1 >= 0  && noTailAt(head.x, head.y - 1)) {
                         head = new Point(head.x, head.y - 1);
 
                     } else {
@@ -172,8 +172,8 @@ public class Snake implements ActionListener, KeyListener {
 
 
                 }
-                if (direction == DOWN && noTailAt(head.x, head.y + 1)) {
-                    if (head.y + 1 < 76) {
+                if (direction == DOWN) {
+                    if (head.y + 1 < 76 && noTailAt(head.x, head.y + 1)) {
 
                         head = new Point(head.x, head.y + 1);
 
@@ -181,8 +181,8 @@ public class Snake implements ActionListener, KeyListener {
                         over = true;
                     }
                 }
-                if (direction == RIGHT && noTailAt(head.x + 1, head.y)) {
-                    if (head.x + 1 < 78) {
+                if (direction == RIGHT) {
+                    if (head.x + 1 < 78 && noTailAt(head.x + 1, head.y)) {
 
                         head = new Point(head.x + 1, head.y);
 
@@ -190,9 +190,9 @@ public class Snake implements ActionListener, KeyListener {
                         over = true;
                     }
                 }
-                if (direction == LEFT && noTailAt(head.x - 1, head.y)) {
+                if (direction == LEFT) {
 
-                    if (head.x - 1 >= 0) {
+                    if (head.x - 1 >= 0 && noTailAt(head.x - 1, head.y)) {
 
                         head = new Point(head.x - 1, head.y);
 
