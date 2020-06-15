@@ -1,5 +1,5 @@
 # Snake with Mozart
-
+Simple snake variation implemmented in Java.
 
 ## Technologies
 * Java
@@ -27,7 +27,7 @@ run application
 ![](Snake/images/highScoreJpanel.png)
 
 ## Instructions
-* Moving: WASD
+* Moving: WSAD
 * Pausing: Space
 * Getting back to Menu: Esc
 
