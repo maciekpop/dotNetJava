@@ -1,5 +1,5 @@
 # Snake with Mozart
-Simple snake variation implemmented in Java.
+Simple snake variation implemented in Java.
 
 ## Technologies
 * Java
